@@ -1,0 +1,56 @@
+.leaderboardHeader{
+    display: flex;
+    padding: 5% 4% 0% 4%;
+    gap:2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leaderboard{
+    display: flex;
+    flex-direction: column
+}
+
+.options{
+    display: flex;
+    padding: 5% 2% 3% 15%;
+    align-content: flex-end;
+}
+
+.svg-cir{
+    border-radius: 50%;
+    background-color: #D3F1FF;
+    display: flex;
+    height: 42px;
+    width: 42px;
+    align-items: center;
+    justify-content: center;
+}
+
+.capsule{
+    margin:5% 7% 3% 12%;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    background-color: #0EA5E9;
+    width: 80%;
+    border-radius: 30px;
+}
+
+
+.tab{
+    width: 80%;
+    border-radius: 30px;
+    border-radius: 20px;
+    background: transparent ;
+    color: white;
+    border: none;
+    font-size: 16px;
+  
+}
+.tab.activee {
+    background: white;
+    color: black;
+    
+  }
+  

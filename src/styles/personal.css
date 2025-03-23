@@ -1,0 +1,103 @@
+:root{
+    --intense :#8B0000;
+    --high:#FF4500;
+    --medium:#FFCC00;
+    --low:#54DA2F;
+    --quick:#00A6FF;
+    --minimal:#BCC1CA;
+}
+
+.weekly-stats{
+   
+    width: 85%;
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.3);
+    display: flex;
+    margin: 5% 10%;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+.weekly-stats ul{
+    margin-bottom: 2%;
+}
+
+.stats{
+    display: flex;
+    margin-left: 10%;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+.h_line { 
+    display: flex;
+    width:77%; 
+    height:1px; 
+    background: #BCC1CA;
+    margin-left: 11%;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 4%;
+}
+
+.color-indicator{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    
+}
+
+.stat-info{
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.stat-info strong{
+    font-size: 12px;
+}
+.stat-info p{
+    margin-left: 5%;
+    font-size: 10px;
+    width: 100%;
+    margin: 0 ;
+    color: #888888;
+}
+
+.weekly-activity{
+    width: 85%;
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.3);
+    display: flex;
+    margin: 5% 10%;
+    border-radius: 30px;
+    flex-direction: column;
+    padding-bottom: 4%;
+}
+
+.activity-item{
+    display: flex;
+    margin: 2% 5%;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 1px 2px 5px  rgba(0, 0, 0, 0.5);
+}
+
+.activity-day{
+    color: white;
+    margin: 2% 2% 0% 5% ;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.workout{
+    color: white;
+    margin: 2% 2% 3% 5%;
+    font-weight: 600;
+}
